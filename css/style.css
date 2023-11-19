@@ -1,0 +1,13 @@
+@font-face {
+    font-family: UnifrakturMaguntia;
+    src: url(../fontes/UnifrakturMaguntia/UnifrakturMaguntia-Regular.ttf);
+}
+
+.logo {
+    font-family: UnifrakturMaguntia;
+    font-size: 3.5rem;
+}
+
+.carousel-caption {
+    background-color: rgb(0,0,0,0.7);
+}
