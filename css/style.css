@@ -11,3 +11,42 @@
 .carousel-caption {
     background-color: rgb(0,0,0,0.7);
 }
+
+#carouselExampleCaptions {
+    height: 50vh; /* Altura fixa */
+}
+
+#carouselExampleCaptions .carousel-inner, #carouselExampleCaptions .carousel-item {
+    height: 100%;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media screen and (min-width: 601px) {
+    .row {
+        margin-right: 0;
+    }
+    
+    .card-body {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .row-content {
+        margin-right: 7px;
+        margin-left: 7px;
+    }
+
+    .card-from-slide {
+        margin-top: 10px;
+    }
+}
+
+.card-from-slide .card{
+    height: 100%;
+}
