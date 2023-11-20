@@ -8,9 +8,18 @@
     src: url(../fontes/Merriweather/Merriweather-Bold.ttf);
 }
 
+@font-face {
+    font-family: EB_Garamond;
+    src: url(../fontes/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+}
+
 .logo {
     font-family: UnifrakturMaguntia;
     font-size: 3.5rem;
+}
+
+.intro {
+    font-family: EB_Garamond;
 }
 
 .titulo {
