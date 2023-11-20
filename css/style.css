@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: EB_Garamond;
-    src: url(../fontes/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+    src: url(../fontes/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
 
 .logo {
@@ -19,7 +19,8 @@
 }
 
 .intro {
-    font-family: EB_Garamond;
+    font-family: PlayfairDisplay;
+    font-weight: bold;
 }
 
 .titulo {
@@ -78,6 +79,12 @@
 
 .card-img-top {
     height: 458px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-from-slide img {
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
